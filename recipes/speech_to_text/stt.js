@@ -68,12 +68,11 @@ tj.listen(function(msg) {
             }
         }
     } else if (containsDisco) {
-        // discoParty();
+         discoParty();
     }
 });
 
 // let's have a disco party!
-/*
 function discoParty() {
     for (i = 0; i < 30; i++) {
         setTimeout(function() {
@@ -83,4 +82,3 @@ function discoParty() {
         }, i * 250);
     }
 }
-*/
